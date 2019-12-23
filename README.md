@@ -4,4 +4,4 @@
    ng new #project-name# --style=scss
 # create a custom material module
 Angular Material module will be a central place where you can include all material module
-   ng generate module app-material
+ng generate module app-material
