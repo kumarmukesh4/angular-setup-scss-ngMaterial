@@ -15,20 +15,20 @@ Angular Material module will be a central place where you can include all materi
     ], <br>
  3. Import material component module in the app material module. <br>
            `
-import { NgModule } from '@angular/core';
-          import { CommonModule } from '@angular/common';
-          import { MatInputModule, MatButtonModule } from '@angular/material';
-          @NgModule({
-            imports: [
-              CommonModule,
-              MatInputModule,
-              MatButtonModule
-            ],
-            exports: [
-              MatInputModule,
-              MatButtonModule
-            ]
-          })
+            import { NgModule } from '@angular/core'; <br>
+            import { CommonModule } from '@angular/common'; <br> 
+            import { MatInputModule, MatButtonModule } from '@angular/material'; <br>
+          @NgModule({<br> 
+            imports: [ <br>
+              CommonModule, <br>
+              MatInputModule, <br>
+              MatButtonModule <br>
+            ], <br>
+            exports: [ <br>
+              MatInputModule, <br>
+              MatButtonModule <br>
+            ] <br>
+          })<br> 
           export class AppMaterialModule { } <br>
             `
  4.  
