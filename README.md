@@ -7,19 +7,12 @@ Angular Material module will be a central place where you can include all materi
  Steps:
  1. ng generate module app-material   --- to add app material module
  2. Import app material module in the app module.
-    #
     import { AppMaterialModule } from './app-material/app-material.module';
-...
-@NgModule({
-  ...
-  imports: [
+     imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppMaterialModule
-  ],
-  ...
-export class AppModule { }
-    #
+    ],
  3.
  
    
