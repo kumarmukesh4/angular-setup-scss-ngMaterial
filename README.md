@@ -5,7 +5,7 @@
 # create a custom material module
 Angular Material module will be a central place where you can include all material module:- <br>
  Steps:
- 1. First add angular material into your project by running below commonad
+ 1. First add angular material into your project by running below commonad <br />
     ng add @angular/material
  2. create and add material module
     ng generate module app-material   
