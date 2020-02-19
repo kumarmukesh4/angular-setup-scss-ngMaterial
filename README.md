@@ -1,39 +1,27 @@
-# angular-setup-scss-ngMaterial
-  Angular setup with scss and angular material
-# create project setup using angular with scss
-   ng new #project-name# --style=scss
-# create a custom material module
-Angular Material module will be a central place where you can include all material module:- <br />
- Steps:
- 1. First add angular material into your project by running below commonad <br />
-    ng add @angular/material <br /><br />
- 2. create and add material module <br />
-    ng generate module app-material  <br /><br /> 
- 3. Import app material module in the app module. <br />
-    `import { AppMaterialModule } from './app-material/app-material.module';
-     imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    AppMaterialModule
-    ], `<br /><br />
- 4. Import material component module in the app material module. <br />
-           `
-            import { NgModule } from '@angular/core';  
-            import { CommonModule } from '@angular/common';   
-            import { MatInputModule, MatButtonModule } from '@angular/material';  
-          @NgModule({  
-            imports: [ 
-              CommonModule, 
-              MatInputModule,  
-              MatButtonModule  
-            ],  
-            exports: [  
-              MatInputModule,  
-              MatButtonModule  
-            ]  
-          }) 
-          export class AppMaterialModule { } <br>
-            `
- 4.  
- 
-   
+# Bts
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
